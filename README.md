@@ -34,3 +34,7 @@ There are a few error codes. The interpreter will not signal exhausting heap mem
 - `E03` - Referencing an undefined variable.
 - `E04` - Continuations exhausted.
 - `E05` - Malformed term.
+
+## Version history
+
+- `v0.01` - 48,175,489 bytes - Initial release.
