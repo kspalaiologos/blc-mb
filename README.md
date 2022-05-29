@@ -24,7 +24,7 @@ Example programs:
 - If fast20 segfaults, then you most probably haven't pointed it towards a valid program to execute.
 - The interpreter might take a while to "warm up". For me, it seems to take around 30 seconds before starting to parse.
 - Parsing is pretty slow, expect the Hilbert curve program to take around 2 hours.
-- If you don't have a Linux machine, you're out of luck because fast20 doesn't work on Windows. PRs welcome!
+- If you don't have a Linux machine or WSL, you're out of luck because fast20 doesn't work on Win32. PRs welcome!
 
 There are a few error codes. The interpreter will not signal exhausting heap memory and will invoke undefined behavior.
 
